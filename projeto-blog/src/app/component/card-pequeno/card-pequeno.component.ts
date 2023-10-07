@@ -10,5 +10,6 @@ export class CardPequenoComponent {
 
   @Input() dataPostMateria: string = "";
 
-
+  @Input() imagemBanner: string = "";
+  
 }
