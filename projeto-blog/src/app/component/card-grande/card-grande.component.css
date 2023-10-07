@@ -1,5 +1,5 @@
 section {
-  border: solid green;
+  /* border: solid green; */
   display: flex;
   flex-direction: column;
   width: 30rem;
@@ -23,13 +23,15 @@ img {
 
 span {
   color: rgba(202, 199, 194, 0.534);
+  margin-top: .2rem;
   font-size: .6rem;
 }
 
 .textoCardGrande {
   /* border: solid blue; */
-  padding: 0 .6rem;
+  padding: 0 .9rem;
 }
+
 h3 {
   text-align: left;
   margin-bottom: .2rem;

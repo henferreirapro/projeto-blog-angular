@@ -11,4 +11,6 @@ export class AppComponent {
   // Parametros de texto para os cards
   dataPostMateria: string = "";
   textoParagrafo: string = "";
+  tituloCard: string = "";
+  imagemBanner: string = "";
 }
