@@ -1,0 +1,16 @@
+.containerMenuTitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  width: 98%;
+  border-color: rgba(83, 82, 80, 0.534);
+}
+h2 {
+  /* border: solid green; */
+  font-size: 11rem;
+  
+}
+

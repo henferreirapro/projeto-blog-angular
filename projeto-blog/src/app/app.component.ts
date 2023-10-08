@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projeto-blog';
+
+  // Parametros de texto para os cards
+  dataPostMateria: string = "";
+  textoParagrafo: string = "";
+  tituloCard: string = "";
+  imagemBanner: string = "";
 }
