@@ -1,10 +1,16 @@
-main {
+.containerCardPequeno {
   /* border: solid green; */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: .5rem;
 }
 
+.CardPequeno {
+  display: flex;
+  flex-direction: row;
+}
+
+/* formatando a imagem */
 .bannerCardPequeno {
   margin-right: .8rem;
   width: 10rem;
@@ -14,6 +20,7 @@ img {
   border-radius: .1rem;
 }
 
+/* formatando data e paragrafo */
 .textoCardPequeno {
   /* border: solid blue; */
   margin-top: -.6rem;
@@ -27,4 +34,9 @@ span {
 
 p {
   font-size: .9rem;
+}
+
+hr {
+  width: 98%;
+  border-color: rgba(83, 82, 80, 0.534);
 }
