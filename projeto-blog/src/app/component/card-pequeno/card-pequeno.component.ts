@@ -6,10 +6,12 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./card-pequeno.component.css']
 })
 export class CardPequenoComponent {
-  @Input() textoParagrafo: string = "";
+  @Input() imagemBanner: string = "../../../assets/img/img-retangular.png";
 
-  @Input() dataPostMateria: string = "";
+  @Input() dataPostMateria: string = "Outubro, 2023";
 
-  @Input() imagemBanner: string = "";
+  @Input() textoParagrafo: string = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi excepturi alias rerum nostrum cumque necessitatibus placeat";
+
+
   
 }
