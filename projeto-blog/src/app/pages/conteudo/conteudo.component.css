@@ -1,0 +1,28 @@
+.containerConteudo {
+  /* border: solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .5rem 1rem;
+}
+
+.conteudoTexto {
+  /* border: solid blue; */
+  margin: .3rem 10rem;
+  
+}
+
+hr {
+  width: 98%;
+  border-color: rgba(83, 82, 80, 0.534);
+}
+
+img {
+  margin: 1rem;
+  width: 800px;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
