@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 section {
   /* border: solid green; */
   display: flex;
