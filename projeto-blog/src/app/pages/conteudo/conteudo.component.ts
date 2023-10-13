@@ -10,13 +10,13 @@ import { bancoDadosNoticias } from 'src/app/data/dadosNoticias';
 export class ConteudoComponent implements OnInit {
 
   
-  @Input() imagemBanner: string = "../../../assets/img/img-retangular-grande.png";
+  @Input() imagemBanner: string = "";
 
   @Input() dataPostMateria: string = "";
 
   @Input() tituloCard: string = "";
 
-  @Input() textoParagrafo: string = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero quasi nesciunt odio doloremque rerum, commodi optio maiores. Ducimus quisquam recusandae enim odio ipsum at dolores magnam mollitia ratione. Sed, laudantium! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero quasi nesciunt odio doloremque rerum, commodi optio maiores. Ducimus quisquam recusandae enim odio ipsum at dolores magnam mollitia ratione. Sed, laudantium!";
+  @Input() textoParagrafo: string = "";
 
   private id: string | null = "0"
 
