@@ -10,7 +10,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   { //Rota para pagina conteudo
-    path: "conteudo",
+    path: "conteudo/:id",
     component: ConteudoComponent
   }
 ];

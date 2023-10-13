@@ -14,9 +14,10 @@ hr {
 
 
 /* menu noticias */
-.menu {
+.menu, a {
   display: flex;
   list-style-type: none;
+  text-decoration: none;
 }
 
 li {

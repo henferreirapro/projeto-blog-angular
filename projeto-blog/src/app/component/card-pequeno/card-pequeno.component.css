@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .containerCardPequeno {
   /* border: solid green; */
   display: flex;
