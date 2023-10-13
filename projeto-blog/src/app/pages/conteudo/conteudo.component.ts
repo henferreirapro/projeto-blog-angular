@@ -42,9 +42,9 @@ export class ConteudoComponent implements OnInit {
     // console.log(resultado)
 
 
-    this.imagemBanner = resultado.imgNoticia;
-    this.dataPostMateria = resultado.dataPost;
-    this.tituloCard = resultado.tituloNoticia;
-    this.textoParagrafo = resultado.textoNoticia;
+    this.imagemBanner = resultado.imgConteudo;
+    this.dataPostMateria = resultado.dataPostConteudo;
+    this.tituloCard = resultado.tituloConteudo;
+    this.textoParagrafo = resultado.textoConteudo;
   }
 }
