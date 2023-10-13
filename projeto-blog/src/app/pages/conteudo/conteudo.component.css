@@ -17,9 +17,20 @@ hr {
   border-color: rgba(83, 82, 80, 0.534);
 }
 
-img {
+.conteudoImg {
+  display: flex;
+  flex-direction: column;
   margin: 1rem;
+}
+
+img {
   width: 800px;
+}
+
+span {
+  color: rgba(202, 199, 194, 0.534);
+  margin-top: .2rem;
+  font-size: .6rem;
 }
 
 h1 {
