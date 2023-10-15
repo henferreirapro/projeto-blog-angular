@@ -1,12 +1,21 @@
-<main>
-  <section class="bannerCardPequeno">
-    <img [src]="imagemBanner" alt="Imagem da noticia">
-
-  </section>
+<a [routerLink]="['conteudo', id]">
+  <section class="containerCardPequeno">
+    <section class="CardPequeno">
+      <article class="bannerCardPequeno">
+        <img [src]="imagemBanner" alt="Imagem da noticia">
+    
+      </article>
+      
+      <article class="textoCardPequeno">
+        <span>{{ dataPostMateria }}</span>
+    
+        <p>{{ textoParagrafo }}</p>
+      </article>
   
-  <section class="textoCardPequeno">
-    <span>{{ dataPostMateria }}</span>
-
-    <p>{{ textoParagrafo }}</p>
+    </section>
+    <hr>    
+    
   </section>
-</main>
+
+</a>
+

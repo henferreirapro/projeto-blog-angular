@@ -1,0 +1,46 @@
+
+
+.containerMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 1rem; */
+  padding: 1rem;
+}
+
+hr {
+  border-color: rgba(83, 82, 80, 0.534);
+}
+
+
+/* menu noticias */
+.menu, a {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li {
+  margin: 0 .5rem;
+  color: rgba(230, 182, 125, 0.671);
+  padding:  .2rem .4rem;
+  
+}
+
+li:hover {
+  background-color: rgb(77, 59, 37);
+  color: rgba(230, 183, 125, 0.884);
+  transition: .5s;
+  border-radius: .2rem;
+}
+
+/* menu rede sociais */
+svg {
+  margin: 0 .5rem;
+  
+}
+
+svg:hover {
+  fill: rgb(251, 179, 253);
+  transition: .5s;
+}
