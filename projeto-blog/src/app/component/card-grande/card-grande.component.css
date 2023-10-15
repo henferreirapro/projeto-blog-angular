@@ -1,5 +1,6 @@
 a {
   text-decoration: none;
+  
 }
 
 section {
@@ -39,9 +40,88 @@ span {
 h3 {
   text-align: left;
   margin-bottom: .2rem;
+  color: rgb(88, 244, 255);
 }
 
 p {
   text-align: justify;
+  color: rgba(255, 229, 199, 0.651);
 }
 
+
+/* MEDIAS QUERYS */
+@media screen and (max-width: 835px) {
+  section {
+    width: 25rem;
+    padding: 4rem;
+    padding: 2rem .75rem;
+  }
+  
+  img {
+    width: 22rem;
+    height: 12rem;
+  }
+
+  .textoCardGrande {
+    width: 22rem;
+  }
+
+  h3 {
+    font-size: 1.250rem;
+    margin-bottom: .5rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: .2rem solid rgba(83, 82, 80, 0.534);
+  }
+
+  img {
+    width: 30rem;
+    height: 15rem;
+  }
+
+  .textoCardGrande {
+    width: 30rem;
+  }
+
+}
+
+@media screen and (max-width: 534px) {
+  
+  img {
+    width: 22rem;
+  }
+
+  .textoCardGrande {
+    width: 22rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  section {
+    width: 20rem;
+    height: 28rem;
+    padding: 1rem .75rem;
+  }
+  img {
+    width: 18rem;
+    height: 11rem;
+  }
+
+  .textoCardGrande {
+    width: 18rem;
+  }
+
+  h3 {
+    font-size: 1.003rem;
+  }
+
+  p {
+    font-size: .895rem;
+  }
+}
