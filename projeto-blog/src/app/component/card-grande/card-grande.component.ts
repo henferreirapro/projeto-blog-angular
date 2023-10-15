@@ -14,4 +14,7 @@ export class CardGrandeComponent {
   @Input() textoParagrafo: string = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi excepturi alias rerum nostrum cumque necessitatibus placeat porro consequatur quaerat voluptate. Iure ad quae ut modi laudantium maxime ducimus quisquam harum.";
 
   @Input() imagemBanner: string = "../../../assets/img/img-retangular.png";
+
+  @Input() id: string = "0";
+  
 }

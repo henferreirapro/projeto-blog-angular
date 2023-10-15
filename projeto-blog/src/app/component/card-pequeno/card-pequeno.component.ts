@@ -14,6 +14,5 @@ export class CardPequenoComponent {
 
   // Add id para rota do conteudo no banco de dados
   @Input() id: string = "0";
-
-
+  
 }
