@@ -16,6 +16,5 @@ export class CardGrandeComponent {
   @Input() imagemBanner: string = "../../../assets/img/img-retangular.png";
 
   @Input() id: string = "0";
-
-
+  
 }

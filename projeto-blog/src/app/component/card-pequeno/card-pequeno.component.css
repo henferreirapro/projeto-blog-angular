@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .containerCardPequeno {
   /* border: solid green; */
   display: flex;
@@ -19,6 +23,8 @@
 
 img {
   border-radius: .1rem;
+  width: 10.4rem;
+  height: 6.9rem;
 }
 
 /* formatando data e paragrafo */
