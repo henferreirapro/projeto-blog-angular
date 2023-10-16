@@ -8,3 +8,11 @@
   flex-direction: column;
   padding-top: .4rem;
 }
+
+@media screen and (max-width: 768px) {
+  .containerCards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
