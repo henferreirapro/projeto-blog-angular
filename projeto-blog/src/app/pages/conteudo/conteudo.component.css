@@ -42,3 +42,56 @@ p {
   margin-bottom: 1rem;
   text-align: justify;
 }
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 835px) {
+  img {
+    width: 44rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  img {
+    width: 32rem;
+  }
+
+  .conteudoTexto {
+    width: 32rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    margin-bottom: .7rem;
+  }
+
+  p {
+    padding: .4rem;
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 534px) {
+  img {
+    width: 23rem;
+  }
+
+  .conteudoTexto {
+    width: 22rem;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  img {
+    width: 18rem;
+  }
+
+  .conteudoTexto {
+    width: 18rem;
+  }
+}
