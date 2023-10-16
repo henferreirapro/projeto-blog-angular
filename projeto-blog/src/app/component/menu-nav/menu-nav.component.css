@@ -44,3 +44,18 @@ svg:hover {
   fill: rgb(251, 179, 253);
   transition: .5s;
 }
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 534px) {
+  .containerMenu {
+    padding: .8rem .5rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  li {
+    font-size: .8rem;
+  }
+
+}
