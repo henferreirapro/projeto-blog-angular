@@ -11,7 +11,7 @@ export const bancoDadosNoticias = [
     "id": "1",
     "imgConteudo": "https://ovicio.com.br/wp-content/uploads/2023/06/20230625-untitled-730x365.jpg",
 
-    "dataPostConteudo": "Setembro, 2023",
+    "dataPostConteudo": "25 de Junho de 2023",
 
     "tituloConteudo": "Vigilante: Boku no Hero Academia Illegals ganhará anime, diz vazamento",
 
@@ -25,7 +25,7 @@ export const bancoDadosNoticias = [
     "id": "2",
     "imgConteudo": "https://ovicio.com.br/wp-content/uploads/2023/10/20231011-jujutsu-kaisen-e36-nanami-730x365.jpg",
 
-    "dataPostConteudo": "12 de outubro de 2023",
+    "dataPostConteudo": "12 de Outubro de 2023",
 
     "tituloConteudo": "Jujutsu Kaisen ganha prévia do Episódio 37",
 
@@ -36,7 +36,7 @@ export const bancoDadosNoticias = [
     "id": "3",
     "imgConteudo": "https://ovicio.com.br/wp-content/uploads/2022/09/20220912-ovicio-assassins-creed-mirage-duration-730x365.jpg",
 
-    "dataPostConteudo": "04 de outubro de 2023",
+    "dataPostConteudo": "04 de Outubro de 2023",
 
     "tituloConteudo": "Review | Assassin’s Creed Mirage é (quase) uma volta às origens",
 
@@ -48,7 +48,7 @@ export const bancoDadosNoticias = [
     "id": "4",
     "imgConteudo": "https://ovicio.com.br/wp-content/uploads/2021/12/20211204-alabasta-ovicio.jpg",
 
-    "dataPostConteudo": "18 de setembro de 2023",
+    "dataPostConteudo": "18 de Setembro de 2023",
 
     "tituloConteudo": "Por onde começar o anime e mangá de One Piece após a série",
     
