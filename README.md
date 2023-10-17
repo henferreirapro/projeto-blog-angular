@@ -54,13 +54,13 @@ ___
     npm install
   ```
 
-  4 - Execute o servidor de desenvolvimento: 
+  4 - Execute o Servidor de Desenvolvimento: 
   - Inicie o ``servidor`` de desenvolvimento usando o seguinte comando:
   ```bash
     ng serve
   ```
 
-  5 - Abra o Projeto no seu navegador:
+  5 - Abra o Projeto no Seu Navegador:
   - Após executar o ``servidor`` abra o seu navegador e execute o link do site do servidor.
   - Normalmente o link é ``http://localhost:4200/``.
 
